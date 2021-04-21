@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/global.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <title>Clean Css</title>
+    </head>
+    <body>
+        <header class="container-max-width header">
+            <nav class="primary-horizantal-padding site-nav">
+                <a class="logo" href="/">CO<span>mplexity</span></a>
+                <ul class="standard-list display-none-on-small large-nav">
+                    <div class="line large-nav__nav-indicator"></div>
+                    <li class="large-nav-item md-font-weight">Home</li>
+                    <li class="large-nav-item md-font-weight">About</li>
+                    <li class="large-nav-item md-font-weight large-nav-item__last-item">Contact</li>
+                </ul>
+                <div class="display-only-on-small menu-icon js-menu-icon">
+                    <div class="line line__menu"></div>
+                    <div class="line line__menu"></div>
+                    <div class="line line__menu line__menu__last-line"></div>
+                </div>
+                <div class="display-only-on-small primary-horizantal-padding small-nav js-small-nav">
+                    <svg class="close-svg js-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.506 20.506">
+                        <g transform="translate(-521.747 -109.247)">
+                            <line
+                                x2="25"
+                                transform="translate(523.161 110.661) rotate(45)"
+                                fill="none"
+                                stroke="#000"
+                                stroke-linecap="round"
+                                stroke-width="2"
+                            />
+                            <line
+                                x2="25"
+                                transform="translate(540.839 110.661) rotate(135)"
+                                fill="none"
+                                stroke="#000"
+                                stroke-linecap="round"
+                                stroke-width="2"
+                            />
+                        </g>
+                    </svg>
+
+                    <ul class="standard-list">
+                        <li class="small-nav-item md-font-weight">Home</li>
+                        <li class="small-nav-item md-font-weight">About</li>
+                        <li class="small-nav-item md-font-weight">Contact</li>
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <div class="primary-horizantal-padding three-img-gallery">
+                    <div class="three-img-gallery__first zoomable">
+                        <img class="img-cover zoom-on-hover fast-transition" src="assets/g1.jpg" />
+                    </div>
+                    <div class="three-img-gallery__second zoomable">
+                        <img class="img-cover zoom-on-hover fast-transition" src="assets/g2.jpg" />
+                    </div>
+                    <div class="three-img-gallery__third zoomable">
+                        <img class="img-cover zoom-on-hover fast-transition" src="assets/g3.jpg" />
+                    </div>
+                </div>
+                <div class="primary-horizantal-padding header__info">
+                    <h1 class="large-heading header__title">
+                        Your Choice <br class="display-none-on-small" />
+                        <span class="secondary-text-color">Matters</span>
+                    </h1>
+                    <div class="header__description">
+                        <p class="header__description__text">
+                            Nam at nisi felis. Ut ullamcorper <br class="display-none-on-small" />
+                            sem diam aliquam imperdiet.
+                        </p>
+                        <a href="/" class="d-inline-block">
+                            <svg class="show-more-arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 17.899">
+                                <g id="Group_1" data-name="Group 1" transform="translate(-989.5 -942.55)">
+                                    <line x2="30" transform="translate(990.5 951.5)" stroke-linecap="round" stroke-width="2" />
+                                    <line
+                                        x2="10"
+                                        transform="translate(1012.964 943.964) rotate(45)"
+                                        stroke-linecap="round"
+                                        stroke-width="2"
+                                    />
+                                    <line
+                                        x2="10"
+                                        transform="translate(1020.036 951.964) rotate(135)"
+                                        stroke-linecap="round"
+                                        stroke-width="2"
+                                    />
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="secondary-background-color">
+                <div class="container-max-width primary-horizantal-padding single-selection-temp">
+                    <div class="primary-img-temp">
+                        <div class="primary-img-temp__frame primary-img-temp__frame--left"></div>
+                        <div class="primary-img-temp__img primary-img-temp__img--right zoomable">
+                            <img class="img-cover zoom-on-hover fast-transition" src="assets/loup2.jpg" />
+                        </div>
+                        <div class="display-only-on-small primary-img-temp__text primary-img-temp__text--left">
+                            <h3 class="secondary-heading white-text light-white-text sb-font-weight">Best Story</h3>
+                            <h1 class="large-heading sb-font-weight white-text primary-img-temp__text__title">
+                                The Last of Us <br /><span class="secondary-text-color">Part II</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="primary-info-temp primary-info-temp--margin-left">
+                        <div class="display-none-on-small">
+                            <h3 class="secondary-heading light-text sb-font-weight">Best Story</h3>
+                            <h1 class="large-heading sb-font-weight primary-img-temp__text__title">
+                                The Last of Us <span class="secondary-text-color">Part II</span>
+                            </h1>
+                        </div>
+                        <p class="large-body-text primary-info-temp__primary-description">
+                            Vivamus hendrerit ex porttitor orci sodales auctor. Integer pharetra feugiat lacus. Curabitur at diam sed elit
+                            sodales fringilla ut eu magna.
+                        </p>
+                        <p>
+                            Nullam ultrices consequat massa, at bibendum nunc. Etiam pulvinar varius est, bibendum non. Proin feugiat
+                            sodales eros, eget rutrum leo maximus vitae. Aliquam pulvinar felis ac neque bibendum, a hendrerit nunc
+                            ultrices.
+                        </p>
+                        <p class="primary-info-temp__last-paragraph">
+                            Fusce sodales dapibus libero, sit amet hendrerit leo sodales vel aliquet elit tortor eget dui.
+                        </p>
+                        <a class="md-font-weight" href="/">
+                            Show More
+                            <div class="line line--show-more-link"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-max-width primary-horizantal-padding single-selection-temp">
+                <div class="primary-img-temp primary-img-temp--img-right">
+                    <div class="primary-img-temp__frame primary-img-temp__frame--right"></div>
+                    <div class="primary-img-temp__img primary-img-temp__img--left zoomable">
+                        <img class="img-cover zoom-on-hover fast-transition" src="assets/mk11.jpg" />
+                    </div>
+                    <div class="display-only-on-small primary-img-temp__text primary-img-temp__text--right">
+                        <h3 class="secondary-heading white-text light-white-text sb-font-weight">Best Fighting Game</h3>
+                        <h1 class="large-heading sb-font-weight white-text primary-img-temp__text__title">
+                            Mortal Kombat <span class="secondary-text-color">11</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="primary-info-temp primary-info-temp--margin-right">
+                    <div class="display-none-on-small">
+                        <h3 class="secondary-heading light-text sb-font-weight">Best Fighting Game</h3>
+                        <h1 class="large-heading sb-font-weight primary-img-temp__text__title">
+                            Mortal Kombat <span class="secondary-text-color">11</span>
+                        </h1>
+                    </div>
+                    <p class="large-body-text primary-info-temp__primary-description">
+                        Quisque sit amet vulputate ipsum, sed sollicitudin felis. Donec molestie metus ut odio placerat, in pharetra dui
+                        vestibulum.
+                    </p>
+                    <p>
+                        Maecenas suscipit nibh at nisi tincidunt consequat. Nullam ac massa at nibh laoreet convallis. Praesent et lectus
+                        consectetur, cursus tortor non, tempor lectus. Duis fringilla nibh vel mollis lacinia.
+                    </p>
+                    <p class="primary-info-temp__last-paragraph">
+                        Maecenas aliquam elit gravida gravida ultrices. In porttitor gravida mi, nec scelerisque nisi aliquet nec. Aenean
+                        pellentesque hendrerit sapien, quis imperdiet leo bibendum in.
+                    </p>
+                    <a class="md-font-weight" href="/">
+                        Show More
+                        <div class="line line--show-more-link"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="secondary-background-color">
+                <div class="container-max-width primary-horizantal-padding single-introduction-temp">
+                    <div class="single-introduction-temp__container">
+                        <div class="single-introduction-temp__container__img zoomable">
+                            <img class="img-cover zoom-on-hover fast-transition" src="assets/mgrr.jpg" />
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card__light-background"></div>
+                            <div class="info-card__text">
+                                <h1 class="large-heading sb-font-weight info-card__text__title">
+                                    Metal Gear Rising: <span class="secondary-text-color">Revengeance</span>
+                                </h1>
+                                <p class="info-card__text__description">
+                                    Suspendisse at facilisis eros. Duis a elit ac erat ultrices mollis id eget lectus. Sed sed lectus et
+                                    justo mollis ullamcorper in a est. Donec a purus tempus, aliquet felis ut, malesuada justo.
+                                </p>
+                                <a class="md-font-weight" href="/">
+                                    Show More
+                                    <div class="line line--show-more-link"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-max-width primary-horizantal-padding explore-section-temp">
+                <div class="zoomable explore-section-temp__first-img">
+                    <img class="img-cover zoom-on-hover fast-transition" src="assets/v.jpg" />
+                </div>
+                <div class="zoomable explore-section-temp__second-img">
+                    <img class="img-cover zoom-on-hover fast-transition" src="assets/n.jpg" />
+                </div>
+                <h1 class="explore-section-temp__title">Explore <span class="secondary-text-color">More</span></h1>
+                <div class="zoomable explore-section-temp__third-img">
+                    <img class="img-cover zoom-on-hover fast-transition" src="assets/acv.jpg" />
+                </div>
+                <div class="zoomable explore-section-temp__forth-img">
+                    <img class="img-cover zoom-on-hover fast-transition" src="assets/re.jpg" />
+                </div>
+                <div class="zoomable explore-section-temp__fifth-img">
+                    <img class="img-cover zoom-on-hover fast-transition" src="assets/ff.jpg" />
+                </div>
+                <div class="explore-section-temp__description">
+                    <p>
+                        Maecenas malesuada ut urna sed rhoncus. Sed iaculis, risus ut ultricies vestibulum, odio tortor varius sapien, vel
+                        cursus nunc lectus nec velit.
+                    </p>
+                    <a class="md-font-weight" href="/">
+                        Details
+                        <div class="line line--show-more-link"></div>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-max-width primary-horizantal-padding copyright-section-temp">
+                <p class="copyright-section-temp__text">Designed And Developed By <span class="secondary-text-color">Uva</span></p>
+                <a class="md-font-weight" href="http://uva01.vercel.app">Portfolio</a>
+            </div>
+        </footer>
+    </body>
+</html>
